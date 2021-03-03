@@ -1,0 +1,179 @@
+.container_about{
+    margin-top: 100px;
+    height: 320px;
+    width: 100%;
+    border: 1px solid black;
+    
+}
+
+.about_part{
+    
+    height: 320px;
+    width: 24.85%;
+    border: 1px solid grey;
+    float: left;
+    line-height: 320px;
+    text-align: center;
+    font-size: 28pt;
+    
+}
+
+.box_titles{
+    
+    height: 320px;
+    width: 100%;
+    background-color: white;
+    opacity: 0.6;
+    
+}
+
+#personalinfo {
+    height: 350px;
+    background-image: url(../images/paint.jpg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+
+#edu {
+    height: 500px;
+    position: relative;
+}
+
+#edu::before {
+    content: "";
+    background-image: url(../images/graduation.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.63;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+ th, td {
+     position: relative;
+     background-color: #ece9ed;
+}
+
+table { margin-left: 30px; }
+
+.table_box {
+    width: 90%;
+    height: 350px;
+    position: relative;
+    background-color:rgba(0, 0, 0, 0.65);
+    margin-left: 50px;
+}
+
+
+#exp {
+    height: 400px;
+    position: relative;
+}
+
+#exp::before {
+    content: "";
+   background-image: url(../images/spark.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+.box {
+    position: relative;
+    height: 230px;
+    width: 300px;
+    background-color:rgba(24,47,151,0.5);
+    margin-left: 50px;
+}
+
+
+#hob {
+    height: 400px;
+    position: relative;
+}
+
+#hob::before {
+    content: "";
+    background-image: url(../images/art.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.73;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+.hobby {
+    position: relative;
+    height: 230px;
+    width: 300px;
+    background-color:rgba(226,226,228,0.89);
+    margin-left: 50px;
+}
+
+.personal_info{
+    
+    background-image: url(../images/about_info.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.education{
+    
+    background-image: url(../images/about_education.jpg);  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.experience{
+    
+    background-image: url(../images/about_experience.jpg);  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.hobbies{
+    
+    background-image: url(../images/about_hobbies.jpg);  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.about_part:hover{background-color: black; color: white;}
+
+.box_titles:hover{background-color: black; color: white;}
+
+.container_about a{color: black;}
+
+.container_individual_sections{
+    width: 100%;
+    border: 1px solid white;
+    
+}
+
